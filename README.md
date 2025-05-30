@@ -28,3 +28,19 @@ A full-stack web application for managing employees and task assignments. Built 
 - React
 - Material UI
 - Axios
+
+---
+
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/loginpage.png)
+
+### Register page
+![Register Page](screenshots/registerpage.png)
+
+### Manager Dashboard
+![Manager Dashboard](screenshots/managerdashboard.png)
+
+### Member Dashboard
+![Member Dashboard](screenshots/memberdashboard.png)
