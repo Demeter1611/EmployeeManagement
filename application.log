@@ -1,0 +1,49 @@
+2025-05-23 16:47:32.233 [main] INFO  c.e.e.EmployeeManagementApplication - Starting EmployeeManagementApplication using Java 17.0.12 with PID 7932 (C:\Users\user\IdeaProjects\axoninternship\EmployeeManagement\build\classes\java\main started by user in C:\Users\user\IdeaProjects\axoninternship\EmployeeManagement)
+2025-05-23 16:47:32.239 [main] DEBUG c.e.e.EmployeeManagementApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-23 16:47:32.240 [main] INFO  c.e.e.EmployeeManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-23 16:47:33.094 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-23 16:47:33.193 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86 ms. Found 5 JPA repository interfaces.
+2025-05-23 16:47:33.789 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-23 16:47:33.802 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-23 16:47:33.802 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-23 16:47:33.862 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-23 16:47:33.862 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1576 ms
+2025-05-23 16:47:34.080 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-23 16:47:34.153 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-23 16:47:34.199 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-23 16:47:34.594 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-23 16:47:34.634 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-23 16:47:35.041 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6723cce7
+2025-05-23 16:47:35.044 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-23 16:47:35.103 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-23 16:47:35.123 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-23 16:47:36.258 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-23 16:47:36.362 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-23 16:47:36.672 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-23 16:47:37.284 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-23 16:47:37.302 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name appUserService
+2025-05-23 16:47:37.891 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-23 16:47:37.900 [main] INFO  c.e.e.EmployeeManagementApplication - Started EmployeeManagementApplication in 6.265 seconds (process running for 7.058)
+2025-05-23 16:47:46.771 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-23 16:47:46.772 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-23 16:47:46.773 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-23 16:47:57.292 [http-nio-8080-exec-2] INFO  c.e.e.appuser.AppUserService - Attempting to load user by email: manager@gmail.com
+2025-05-23 16:47:57.343 [http-nio-8080-exec-2] DEBUG c.e.e.appuser.AppUserService - User found: Manager[] AppUser[id= 1, email= manager@gmail.com, name= manager, role= MANAGER]
+2025-05-23 16:47:57.487 [http-nio-8080-exec-2] INFO  c.e.e.s.a.CustomLoginSuccessHandler - Login succesful!
+2025-05-23 16:47:57.488 [http-nio-8080-exec-2] INFO  c.e.e.s.a.CustomLoginSuccessHandler - Sent response!
+2025-05-23 16:48:16.180 [http-nio-8080-exec-6] INFO  c.e.e.appuser.AppUserService - Attempting to load user by email: membru@gmail.com
+2025-05-23 16:48:16.184 [http-nio-8080-exec-6] DEBUG c.e.e.appuser.AppUserService - User found: Member[loginTime= null, logoutTime= null] AppUser[id= 2, email= membru@gmail.com, name= aaa, role= MEMBER]
+2025-05-23 16:48:16.309 [http-nio-8080-exec-6] INFO  c.e.e.s.a.CustomLoginSuccessHandler - Login succesful!
+2025-05-23 16:48:16.309 [http-nio-8080-exec-6] INFO  c.e.e.s.a.CustomLoginSuccessHandler - Sent response!
+2025-05-23 16:51:07.202 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-23 16:51:07.277 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-23 16:51:07.282 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-23 16:51:07.310 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-23 16:51:07.315 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
